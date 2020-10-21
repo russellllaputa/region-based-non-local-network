@@ -1,7 +1,7 @@
 # Code for paper:
-# [Title]  - "PAN: Towards Fast Action Recognition via Learning Persistence of Appearance"
-# [Author] - Can Zhang, Yuexian Zou, Guang Chen, Lei Gan
-# [Github] - https://github.com/zhang-can/PAN-PyTorch
+# [Title]  - "Region-based Non-local Operation for Video Classification"
+# [Author] - Guoxi Huang, Adrian G. Bors
+# [Github] - https://github.com/guoxih/region-based-non-local-network
 
 import argparse
 parser = argparse.ArgumentParser(description="PyTorch implementation of Temporal Segment Networks")
