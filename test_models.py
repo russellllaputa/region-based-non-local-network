@@ -1,9 +1,7 @@
-# Code for "TSM: Temporal Shift Module for Efficient Video Understanding"
-# arXiv:1811.08383
-# Ji Lin*, Chuang Gan, Song Han
-# {jilin, songhan}@mit.edu, ganchuang@csail.mit.edu
-
-# Notice that this file has been modified to support ensemble testing
+# Code for paper:
+# [Title]  - "Region-based Non-local Operation for Video Classification"
+# [Author] - Guoxi Huang, Adrian G. Bors
+# [Github] - https://github.com/guoxih/region-based-non-local-network
 
 import argparse
 import time
