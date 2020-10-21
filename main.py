@@ -1,3 +1,8 @@
+# Code for paper:
+# [Title]  - "Region-based Non-local Operation for Video Classification"
+# [Author] - Guoxi Huang, Adrian G. Bors
+# [Github] - https://github.com/guoxih/region-based-non-local-network
+
 import torch.nn.parallel
 import torch.backends.cudnn as cudnn
 import torch.optim
