@@ -54,9 +54,6 @@ parser.add_argument('--temporal_pool', default=False, action="store_true", help=
 parser.add_argument('--dataset', type=str)
 parser.add_argument('--modality', type=str, default='RGB', help='RGB or Flow')
 parser.add_argument('--non_local', default=False, action="store_true", help='add non local block')
-parser.add_argument('--has_vap', default=False, action="store_true", help='add  Various-timescale Aggregation Pooling')
-parser.add_argument('--has_trp', default=False, action="store_true", help='add  temporal reasoning Pooling')
-parser.add_argument('--cbam', default=False, action="store_true", help='add cbam block')
 parser.add_argument('--dense_sample', default=False, action="store_true", help='use dense sample for video dataset')
 parser.add_argument('--num_segments', type=int, default=8)
 parser.add_argument('--lr_type', default='step', type=str, metavar='LRtype', help='learning rate type')
@@ -191,12 +188,6 @@ def main_worker(gpu, ngpus_per_node, args):
         args.store_name += '_dense'
     if args.non_local > 0:
         args.store_name += '_nl'
-    if args.has_vap > 0:
-        args.store_name += '_vap'
-    if args.has_trp > 0:
-        args.store_name += '_trp'
-    if args.cbam > 0:
-        args.store_name += '_cbam'
     args.store_name += '_lr{}'.format(args.lr)
     args.store_name += '_wd{:.1e}'.format(args.weight_decay)
     args.store_name += '_do{}'.format(args.dropout)
@@ -216,7 +207,7 @@ def main_worker(gpu, ngpus_per_node, args):
                 is_shift=args.shift, shift_div=args.shift_div, shift_place=args.shift_place,
                 fc_lr5=not (args.tune_from and args.dataset in args.tune_from),
                 temporal_pool=args.temporal_pool,
-                non_local=args.non_local, cbam=args.cbam, has_vap=args.has_vap, has_trp=args.has_trp)
+                non_local=args.non_local)
     
     # first synchronization of initial weights
     # sync_initial_weights(model, args.rank, args.world_size)
