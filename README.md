@@ -47,7 +47,7 @@ On Kinetics, RNL TSM models achieve better performance than NL I3D model with le
 | method          | n-frame      | Something-V1 Acc. | checkpoint |
 | --------------- | ------------ | ------------- | -------------------------------------------------------------|
 | RNL TSM-ResNet50 | 8 * 2clips  | 49.5%     | [link](https://drive.google.com/file/d/15t1rNgQEFs3dRu8FokhPV6zA6_SdtSU6/view?usp=sharing) |
-| RNL TSM-ResNet50 | 16 * 2clips  | 51.0%     |
+| RNL TSM-ResNet50 | 16 * 2clips  | 51.0%     | [link](https://drive.google.com/file/d/1k6-v1qsWhrTaL8HuoLWRmUEYiyOuQbKe/view?usp=sharing)
 | RNL TSM-ResNet50 | (8+16) * 2clips  | 52.7%     |
 | RNL TSM-ResNet101 | 8 * 2clips  | 50.8%     |
 | RNL 101 + RNL 50 | (8+16) * 2clips  | 54.1%  |
