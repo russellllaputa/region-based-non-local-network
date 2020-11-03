@@ -13,12 +13,21 @@ We compare the I3D performance reported in Non-local paper:
 
 | method          | n-frame      | Kinetics Acc. |
 | --------------- | ------------ | ------------- |
-| I3D-ResNet50 NL | 32 * 10clips | 74.9%         |
-| TSM-ResNet50 RNL | 8 * 10clips  | 75.6%     |
-| TSM-ResNet50 RNL | 16 * 10clips  | 77.2%     |
-| TSM-ResNet50 RNL | (16+8) * 10clips  | 77.4%     |
+| NL I3D-ResNet50 | 32 * 10clips | 74.9%         |
+| RNL TSM-ResNet50 | 8 * 10clips  | 75.6%     |
+| RNL TSM-ResNet50 | 16 * 10clips  | 77.2%     |
+| RNL TSM-ResNet50 | (16+8) * 10clips  | 77.4%     |
 
-RNL TSM models achieve better performance than NL I3D model with less computation (shorter video length).
+On Kinetics, RNL TSM models achieve better performance than NL I3D model with less computation (shorter video length).
+
+| method          | n-frame      | Something-V1 Acc. |
+| --------------- | ------------ | ------------- |
+| RNL TSM-ResNet50 | 8 * 2clips  | 49.5%     |
+| RNL TSM-ResNet50 | 16 * 2clips  | 51.0%     |
+| RNL TSM-ResNet50 | (8+16) * 2clips  | 52.7%     |
+| RNL TSM-ResNet101 | 8 * 2clips  | 50.8%     |
+| RNL TSM-ResNet101 + RNL TSM-ResNet50 | (8+16) * 2clips  | 54.1%  |
+
 
 
 | model             | n-frame     | Kinetics Acc. | checkpoint                                                   | 
@@ -27,7 +36,7 @@ RNL TSM models achieve better performance than NL I3D model with less computatio
 
 | model             | n-frame     | Something-V1 Acc. | checkpoint                                                   | 
 | ----------------- | ----------- | ------------- | ------------------------------------------------------------ |
-| TSM ResNet50 NL   | 8 * 2clips | 75.6%         | [link](https://drive.google.com/file/d/15t1rNgQEFs3dRu8FokhPV6zA6_SdtSU6/view?usp=sharing)|
+| TSM ResNet50 NL   | 8 * 2clips | 49.5%         | [link](https://drive.google.com/file/d/15t1rNgQEFs3dRu8FokhPV6zA6_SdtSU6/view?usp=sharing)|
 
 
 
