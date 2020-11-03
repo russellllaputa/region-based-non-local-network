@@ -1,5 +1,23 @@
 # Region-based Non-local operation for Video Classification
 
+
+## Overview
+
+We release the PyTorch code of the [Region-based Non-local operation for Video Classification](https://arxiv.org/pdf/2007.09033.pdf).
+
+## Content
+
+- [Prerequisites](#prerequisites)
+- [Data Preparation](#data-preparation)
+- [Pretrained Models](#pretrained-models)
+- [Training](#training)
+- [Testing](#testing)
+
+- [Other Info](#Other Info)
+
+## Prerequisites
+- [PyTorch](https://pytorch.org/) 1.3 or higher
+
 ## Data Preparation
 
 Please refer to [TSM](https://github.com/mit-han-lab/temporal-shift-module) repo for the details of data preparation.
