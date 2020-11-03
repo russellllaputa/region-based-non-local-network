@@ -1,18 +1,10 @@
 # Region-based Non-local operation for Video Classification [[arXiv]](https://arxiv.org/pdf/2007.09033.pdf)
 
-```
-@article{huang2020region,
-  title={Region-based Non-local Operation for Video Classification},
-  author={Huang, Guoxi and Bors, Adrian G},
-  journal={arXiv preprint arXiv:2007.09033},
-  year={2020}
-}
-```
 <div align="center">
     <img src="visualization.jpg" width="800px" />
 </div>
 
-### Citation
+## Citation
 
 Please **[★star]** this repo and **[cite]** the following arXiv paper if you think our RNL is useful for you:
 
