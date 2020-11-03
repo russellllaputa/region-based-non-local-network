@@ -23,9 +23,9 @@ We compare the I3D performance reported in Non-local paper:
 RNL TSM models achieve better performance than NL I3D model with less computation (shorter video length).
 
 
-| model             | n-frame     | Kinetics Acc. | checkpoint                                                   | download code|
-| ----------------- | ----------- | ------------- | ------------------------------------------------------------ | -------------|
-| TSM ResNet50 NL   | 8 * 10clips | 75.6%         | [link](https://pan.baidu.com/s/1WnepknYcxwGzzxHl52n0tQ) | 3573|
+| model             | n-frame     | Kinetics Acc. | checkpoint                                                   | 
+| ----------------- | ----------- | ------------- | ------------------------------------------------------------ |
+| TSM ResNet50 NL   | 8 * 10clips | 75.6%         | [link](https://drive.google.com/file/d/1l1NAMYkjXf6yQAyJoMhPii9j050Wy8K2/view?usp=sharing)|
 
 
 ## Training 
