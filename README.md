@@ -73,3 +73,35 @@ python test_models.py kinetics  \
 --weights=pretrained/TSM_kinetics_RGB_resnet50_shift8_blockres_avg_segment8_e50_cos_nl_lr0.02_wd6.0e-04_1.pth.tar \
 --test_segments=8 --batch_size=16 -j 25 --test_crops=3  --dense_sample --full_res
 ```
+
+## Other Info
+
+### References
+
+This repository is built upon the following baseline implementations.
+
+- [TSM](https://github.com/mit-han-lab/temporal-shift-module)
+- [TSN](https://github.com/yjxiong/tsn-pytorch)
+
+### Citation
+
+Please **[★star]** this repo and **[cite]** the following arXiv paper if you think our RNL is useful for you:
+
+```
+@article{huang2020region,
+  title={Region-based Non-local Operation for Video Classification},
+  author={Huang, Guoxi and Bors, Adrian G},
+  journal={arXiv preprint arXiv:2007.09033},
+  year={2020}
+}
+```
+
+
+
+### Contact
+
+For any questions, please feel free to open an issue or contact:
+
+```
+Guoxi Huang: gh825@york.ac.uk
+```
