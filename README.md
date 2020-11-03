@@ -11,32 +11,22 @@ Training video models is computationally expensive. Here we provide some of the 
 
 We compare the I3D performance reported in Non-local paper:
 
-| method          | n-frame      | Kinetics Acc. |
-| --------------- | ------------ | ------------- |
+| method          | n-frame      | Kinetics Acc. | checkpoint |
+| --------------- | ------------ | ------------- | ------------------------------------------------------------ |
 | NL I3D-ResNet50 | 32 * 10clips | 74.9%         |
-| RNL TSM-ResNet50 | 8 * 10clips  | 75.6%     |
+| RNL TSM-ResNet50 | 8 * 10clips  | 75.6%     | [link](https://drive.google.com/file/d/1l1NAMYkjXf6yQAyJoMhPii9j050Wy8K2/view?usp=sharing) |
 | RNL TSM-ResNet50 | 16 * 10clips  | 77.2%     |
 | RNL TSM-ResNet50 | (16+8) * 10clips  | 77.4%     |
 
 On Kinetics, RNL TSM models achieve better performance than NL I3D model with less computation (shorter video length).
 
-| method          | n-frame      | Something-V1 Acc. |
-| --------------- | ------------ | ------------- |
-| RNL TSM-ResNet50 | 8 * 2clips  | 49.5%     |
+| method          | n-frame      | Something-V1 Acc. | checkpoint |
+| --------------- | ------------ | ------------- | -------------------------------------------------------------|
+| RNL TSM-ResNet50 | 8 * 2clips  | 49.5%     | [link](https://drive.google.com/file/d/15t1rNgQEFs3dRu8FokhPV6zA6_SdtSU6/view?usp=sharing) |
 | RNL TSM-ResNet50 | 16 * 2clips  | 51.0%     |
 | RNL TSM-ResNet50 | (8+16) * 2clips  | 52.7%     |
 | RNL TSM-ResNet101 | 8 * 2clips  | 50.8%     |
 | RNL 101 + RNL 50 | (8+16) * 2clips  | 54.1%  |
-
-
-
-| model             | n-frame     | Kinetics Acc. | checkpoint                                                   | 
-| ----------------- | ----------- | ------------- | ------------------------------------------------------------ |
-| TSM ResNet50 NL   | 8 * 10clips | 75.6%         | [link](https://drive.google.com/file/d/1l1NAMYkjXf6yQAyJoMhPii9j050Wy8K2/view?usp=sharing)|
-
-| model             | n-frame     | Something-V1 Acc. | checkpoint                                                   | 
-| ----------------- | ----------- | ------------- | ------------------------------------------------------------ |
-| TSM ResNet50 NL   | 8 * 2clips | 49.5%         | [link](https://drive.google.com/file/d/15t1rNgQEFs3dRu8FokhPV6zA6_SdtSU6/view?usp=sharing)|
 
 
 
