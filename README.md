@@ -16,19 +16,6 @@ Please **[★star]** this repo and **[cite]** the following arXiv paper if you t
   year={2020}
 }
 ```
-## Overview
-
-We release the PyTorch code of the [Region-based Non-local operation for Video Classification](https://arxiv.org/pdf/2007.09033.pdf).
-
-## Content
-
-- [Prerequisites](#prerequisites)
-- [Data Preparation](#data-preparation)
-- [Pretrained Models](#pretrained-models)
-- [Training](#training)
-- [Testing](#testing)
-
-- [Other Info](#other-info)
 
 ## Prerequisites
 - [PyTorch](https://pytorch.org/) 1.3 or higher
