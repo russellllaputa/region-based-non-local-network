@@ -4,6 +4,34 @@
 
 Please refer to [TSM](https://github.com/mit-han-lab/temporal-shift-module) repo for the details of data preparation.
 
+
+## Pretrained Models
+
+Training video models is computationally expensive. Here we provide some of the pretrained models. The accuracy might vary a little bit compared to the paper, since we re-train some of the models.
+
+### Kinetics-400
+
+#### Dense Sample
+
+In the latest version of our paper, we reported the results of TSM trained and tested with **I3D dense sampling** (Table 1&4, 8-frame and 16-frame), using the same training and testing hyper-parameters as in [Non-local Neural Networks](https://arxiv.org/abs/1711.07971) paper to directly compare with I3D. 
+
+We compare the I3D performance reported in Non-local paper:
+
+| method          | n-frame      | Kinetics Acc. |
+| --------------- | ------------ | ------------- |
+| I3D-ResNet50 NL | 32 * 10clips | 74.9%         |
+| TSM-ResNet50 RNL | 8 * 10clips  | 75.6%     |
+| TSM-ResNet50 RNL | 16 * 10clips  | 77.2%     |
+| TSM-ResNet50 RNL | (16+8) * 10clips  | 77.4%     |
+
+RNL TSM models achieve better performance than NL I3D model with less computation (shorter video length).
+
+
+| model             | n-frame     | Kinetics Acc. | checkpoint                                                   | download code
+| ----------------- | ----------- | ------------- | ------------------------------------------------------------ | 
+| TSM ResNet50 NL   | 8 * 10clips | 75.6%         | [link](https://pan.baidu.com/s/1WnepknYcxwGzzxHl52n0tQ) | 3573|
+
+
 ## Training 
 
 We provided several examples to train RNL network with this repo:
