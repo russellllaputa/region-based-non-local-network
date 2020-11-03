@@ -34,7 +34,7 @@ python main.py --dataset kinetics  --dense_sample --dist-url 'tcp://localhost:66
 # For example, if you use a batch size of 128 you should set learning rate to 0.04.
 ```
 
-## Training 
+## Test 
 
 For example, to test the downloaded pretrained models on Kinetics, you can run the scripts below. The scripts test RNL on 8-frame setting by running:
 
