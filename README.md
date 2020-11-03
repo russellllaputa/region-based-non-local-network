@@ -9,8 +9,7 @@
 }
 ```
 <div align="center">
-  
-  <object data="rnlnet.pdf" type="application/pdf"  height="700">
+    <img src="rnlnet.pdf" width="700px" />
 </div>
   
 ## Overview
