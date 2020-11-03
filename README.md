@@ -11,10 +11,6 @@ Training video models is computationally expensive. Here we provide some of the 
 
 ### Kinetics-400
 
-#### Dense Sample
-
-In the latest version of our paper, we reported the results of TSM trained and tested with **I3D dense sampling** (Table 1&4, 8-frame and 16-frame), using the same training and testing hyper-parameters as in [Non-local Neural Networks](https://arxiv.org/abs/1711.07971) paper to directly compare with I3D. 
-
 We compare the I3D performance reported in Non-local paper:
 
 | method          | n-frame      | Kinetics Acc. |
