@@ -13,7 +13,7 @@ We release the PyTorch code of the [Region-based Non-local operation for Video C
 - [Training](#training)
 - [Testing](#testing)
 
-- [Other Info](#Other Info)
+- [Other Info](#other-info)
 
 ## Prerequisites
 - [PyTorch](https://pytorch.org/) 1.3 or higher
