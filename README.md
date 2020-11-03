@@ -32,9 +32,9 @@ python main.py --dataset kinetics  --dense_sample --dist-url 'tcp://localhost:66
 # The total batch size is equal to batch_size x batch_multiplier
 # Notice that you should scale up the learning rate with batch size. 
 # For example, if you use a batch size of 128 you should set learning rate to 0.04.
+```
 
-
-## Testing 
+## Training 
 
 For example, to test the downloaded pretrained models on Kinetics, you can run the scripts below. The scripts test RNL on 8-frame setting by running:
 
