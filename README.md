@@ -1,5 +1,13 @@
 # Region-based Non-local operation for Video Classification
 
+```
+@article{huang2020region,
+  title={Region-based Non-local Operation for Video Classification},
+  author={Huang, Guoxi and Bors, Adrian G},
+  journal={arXiv preprint arXiv:2007.09033},
+  year={2020}
+}
+```
 
 ## Overview
 
