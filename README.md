@@ -8,7 +8,9 @@
   year={2020}
 }
 ```
-
+<div align="center">
+  <img src="rnlnet.pdf" width="700px" />
+</div>
 ## Overview
 
 We release the PyTorch code of the [Region-based Non-local operation for Video Classification](https://arxiv.org/pdf/2007.09033.pdf).
