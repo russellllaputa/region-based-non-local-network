@@ -13,7 +13,7 @@ The accuracy might be a bit different from the paper, as we did some modificatio
 | --------------- | ------------ | ------------- | ------------------------------------------------------------ |
 | NL I3D-ResNet50 | 32 * 10clips | 74.9%         |
 | RNL TSM-ResNet50 | 8 * 10clips  | 75.6%     | [link](https://drive.google.com/file/d/1l1NAMYkjXf6yQAyJoMhPii9j050Wy8K2/view?usp=sharing) |
-| RNL TSM-ResNet50 | 16 * 10clips  | 77.2%     |
+| RNL TSM-ResNet50 | 16 * 10clips  | 77.2%     | [link](https://drive.google.com/file/d/1Sb_aOIc-69w33Z2p_OF-aPoc1_m-u1gp/view?usp=sharing)
 | RNL TSM-ResNet50 | (16+8) * 10clips  | 77.4%     |
 
 On Kinetics, RNL TSM models achieve better performance than NL I3D model with less computation (shorter video length).
