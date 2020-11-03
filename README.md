@@ -9,8 +9,6 @@ Please refer to [TSM](https://github.com/mit-han-lab/temporal-shift-module) repo
 
 Training video models is computationally expensive. Here we provide some of the pretrained models. The accuracy might vary a little bit compared to the paper, since we re-train some of the models.
 
-### Kinetics-400
-
 We compare the I3D performance reported in Non-local paper:
 
 | method          | n-frame      | Kinetics Acc. |
@@ -26,6 +24,11 @@ RNL TSM models achieve better performance than NL I3D model with less computatio
 | model             | n-frame     | Kinetics Acc. | checkpoint                                                   | 
 | ----------------- | ----------- | ------------- | ------------------------------------------------------------ |
 | TSM ResNet50 NL   | 8 * 10clips | 75.6%         | [link](https://drive.google.com/file/d/1l1NAMYkjXf6yQAyJoMhPii9j050Wy8K2/view?usp=sharing)|
+
+| model             | n-frame     | Something-V1 Acc. | checkpoint                                                   | 
+| ----------------- | ----------- | ------------- | ------------------------------------------------------------ |
+| TSM ResNet50 NL   | 8 * 2clips | 75.6%         | [link](https://drive.google.com/file/d/15t1rNgQEFs3dRu8FokhPV6zA6_SdtSU6/view?usp=sharing)|
+
 
 
 ## Training 
