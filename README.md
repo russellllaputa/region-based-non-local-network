@@ -26,8 +26,7 @@ On Kinetics, RNL TSM models achieve better performance than NL I3D model with le
 | RNL TSM-ResNet50 | 16 * 2clips  | 51.0%     |
 | RNL TSM-ResNet50 | (8+16) * 2clips  | 52.7%     |
 | RNL TSM-ResNet101 | 8 * 2clips  | 50.8%     |
-| RNL TSM-ResNet101 + \ 
-RNL TSM-ResNet50 | (8+16) * 2clips  | 54.1%  |
+| RNL 101 + RNL 50 | (8+16) * 2clips  | 54.1%  |
 
 
 
