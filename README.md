@@ -7,7 +7,7 @@ Please refer to [TSM](https://github.com/mit-han-lab/temporal-shift-module) repo
 
 ## Pretrained Models
 
-The accuracy might be a bit different from the paper, as we did some modification to our models. For example, instead of using SE module reported in the paper, we use the Channel-gate module form [GCNet] (https://github.com/xvjiarui/GCNet) to model the channel attention.
+The accuracy might be a bit different from the paper, as we did some modification to our models. For example, instead of using SE module reported in the paper, we use the Channel-gate module form [GCNet](https://github.com/xvjiarui/GCNet) to model the channel attention.
 
 | method          | n-frame      | Kinetics Acc. | checkpoint |
 | --------------- | ------------ | ------------- | ------------------------------------------------------------ |
