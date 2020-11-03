@@ -37,10 +37,10 @@ The accuracy might be a bit different from the paper, as we did some modificatio
 
 | method          | n-frame      | Kinetics Acc. | checkpoint |
 | --------------- | ------------ | ------------- | ------------------------------------------------------------ |
-| NL I3D-ResNet50 | 32 * 10clips | 74.9%         |
+| NL I3D-ResNet50 | 32 * 10clips | 74.9%         | -
 | RNL TSM-ResNet50 | 8 * 10clips  | 75.6%     | [link](https://drive.google.com/file/d/1l1NAMYkjXf6yQAyJoMhPii9j050Wy8K2/view?usp=sharing) |
 | RNL TSM-ResNet50 | 16 * 10clips  | 77.2%     | [link](https://drive.google.com/file/d/1Sb_aOIc-69w33Z2p_OF-aPoc1_m-u1gp/view?usp=sharing)
-| RNL TSM-ResNet50 | (16+8) * 10clips  | 77.4%     |
+| RNL TSM-ResNet50 | (16+8) * 10clips  | 77.4%     | -
 
 On Kinetics, RNL TSM models achieve better performance than NL I3D model with less computation (shorter video length).
 
@@ -48,8 +48,8 @@ On Kinetics, RNL TSM models achieve better performance than NL I3D model with le
 | --------------- | ------------ | ------------- | -------------------------------------------------------------|
 | RNL TSM-ResNet50 | 8 * 2clips  | 49.5%     | [link](https://drive.google.com/file/d/15t1rNgQEFs3dRu8FokhPV6zA6_SdtSU6/view?usp=sharing) |
 | RNL TSM-ResNet50 | 16 * 2clips  | 51.0%     | [link](https://drive.google.com/file/d/1k6-v1qsWhrTaL8HuoLWRmUEYiyOuQbKe/view?usp=sharing)
-| RNL TSM-ResNet50 | (8+16) * 2clips  | 52.7%     |
-| RNL TSM-ResNet101 | 8 * 2clips  | 50.8%     |
+| RNL TSM-ResNet50 | (8+16) * 2clips  | 52.7%     | -
+| RNL TSM-ResNet101 | 8 * 2clips  | 50.8%     | 
 | RNL 101 + RNL 50 | (8+16) * 2clips  | 54.1%  |
 
 
@@ -91,12 +91,12 @@ For example, to test the downloaded pretrained models on Kinetics, you can run t
 ```bash
 # test on Something
 python test_models.py something \
---weights=pretrained/TSM_something_RGB_resnet50_shift8_blockres_avg_segment8_e50_cos_nl_lr0.02_wd6.0e-04_1.pth.tar \
+--weights=pretrained/TSM_something_RGB_resnet50_shift8_blockres_avg_segment8_e50_cos_nl_h_8e-4.pth.tar \
 --test_segments=8 --batch_size=2 -j 25 --test_crops=3  --twice_sample  --full_res
 
 # test on kinetics
 python test_models.py kinetics  \
---weights=pretrained/TSM_kinetics_RGB_resnet50_shift8_blockres_avg_segment8_e50_cos_nl_lr0.02_wd6.0e-04_1.pth.tar \
+--weights=pretrained/TSM_kinetics_RGB_resnet50_shift8_blockres_avg_segment8_e100_cos_dense_nl_lr0.02_wd2.0e-04.pth.tar \
 --test_segments=8 --batch_size=16 -j 25 --test_crops=3  --dense_sample --full_res
 ```
 
