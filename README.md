@@ -9,7 +9,7 @@
 }
 ```
 <div align="center">
-    <img src="visualization.jpg" width="700px" />
+    <img src="visualization.jpg" width="800px" />
 </div>
   
 ## Overview
