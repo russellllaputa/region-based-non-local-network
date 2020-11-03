@@ -39,7 +39,6 @@ python main.py --dataset kinetics  --dense_sample --dist-url 'tcp://localhost:66
 For example, to test the downloaded pretrained models on Kinetics, you can run the scripts below. The scripts test RNL on 8-frame setting by running:
 
 ```bash
-
 # test on Something
 python test_models.py something \
 --weights=pretrained/TSM_something_RGB_resnet50_shift8_blockres_avg_segment8_e50_cos_nl_lr0.02_wd6.0e-04_1.pth.tar \
@@ -49,5 +48,4 @@ python test_models.py something \
 python test_models.py kinetics  \
 --weights=pretrained/TSM_kinetics_RGB_resnet50_shift8_blockres_avg_segment8_e50_cos_nl_lr0.02_wd6.0e-04_1.pth.tar \
 --test_segments=8 --batch_size=16 -j 25 --test_crops=3  --dense_sample --full_res
-
 ```
