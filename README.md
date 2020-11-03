@@ -1,4 +1,4 @@
-# Region-based Non-local operation for Video Classification
+# Region-based Non-local operation for Video Classification [[arXiv]](https://arxiv.org/pdf/2007.09033.pdf)
 
 ```
 @article{huang2020region,
