@@ -1,4 +1,4 @@
-# Region-based Non-local operation for Video Classification [[arXiv]](https://arxiv.org/pdf/2007.09033.pdf)
+# Region-based Non-local operation for Video Classification [[arXiv]](https://arxiv.org/abs/2007.09033)
 
 <div align="center">
     <img src="visualization.jpg" width="800px" />
