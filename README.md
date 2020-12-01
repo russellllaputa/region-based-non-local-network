@@ -70,7 +70,7 @@ python main.py --dist-url 'tcp://localhost:6666' --dist-backend 'nccl' \
 --lr 0.02 --wd 1e-3 --dropout 0.8 --num_segments 8 --batch_size 16 --batch_multiplier 4\
 --use_warmup --warmup_epochs 1 --lr_type cos --epochs 50 --non_local  --suffix 1
 
-# Notice that the total batch size is equal to batch_size x batch_multiplier, and 
+# Notice that the total batch size is equal to batch_size x batch_multiplier x world_size, and 
 # you should scale up the learning rate with batch size. For example, if you use 
 # a batch size of 128 you should set learning rate to 0.04.
   ```
