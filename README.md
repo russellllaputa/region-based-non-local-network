@@ -79,7 +79,7 @@ python main.py --dist-url 'tcp://localhost:6666' --dist-backend 'nccl' \
 
 ## Test 
 
-For example, to test the downloaded pretrained models on Kinetics, you can run the scripts below. The scripts test RNL on 8-frame setting by running:
+For example, to test the downloaded pretrained models, you can run the scripts below. The scripts test RNL on 8-frame setting by running:
 
 ```bash
 
